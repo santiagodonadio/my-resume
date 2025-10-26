@@ -1,8 +1,8 @@
-PWD /Users/santiagodonadio/Desktop/desktop/resume/resume
+PWD /Users/santiagodonadio/Desktop/desktop/resume
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/santiagodonadio/Desktop/desktop/resume/resume/resume.tex
+INPUT /Users/santiagodonadio/Desktop/desktop/resume/resume.tex
 OUTPUT resume.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
