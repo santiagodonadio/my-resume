@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 NOV 2025 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 NOV 2025 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,6 +274,7 @@ LaTeX Font Info:    ... okay on input line 106.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 106.
+ (./resumeData.out) (./resumeData.out)
 \@outlinefile=\write3
 \openout3 = `resumeData.out'.
 
@@ -296,31 +297,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 129.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 129.
-)
-Runaway argument?
-{\href {https://1drv.ms/w/c/5a6247e5ff8fe0f6/ER1vxZVDSTdDuwq7e64LiC0B\ETC.
-! File ended while scanning use of \resumeProjectHeading.
-<inserted text> 
-                \par 
-<*> ...nadio/Desktop/desktop/resume/resumeData.tex
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
-! Emergency stop.
-<*> ...nadio/Desktop/desktop/resume/resumeData.tex
-                                                  
-*** (job aborted, no legal \end found)
 
- 
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resumeData.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `resumeData.out' has not changed.
+(rerunfilecheck)             Checksum: E506B0297DEFC2A40BDDCAC34BB8EA98;418.
+ ) 
 Here is how much of TeX's memory you used:
- 10850 strings out of 473190
- 171755 string characters out of 5715801
- 587202 words of memory out of 5000000
- 33995 multiletter control sequences out of 15000+600000
+ 10888 strings out of 473190
+ 172511 string characters out of 5715801
+ 608200 words of memory out of 5000000
+ 34020 multiletter control sequences out of 15000+600000
  564429 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,372b,416s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,11n,79p,372b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resumeData.pdf (1 page, 99583 bytes).
+PDF statistics:
+ 73 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
