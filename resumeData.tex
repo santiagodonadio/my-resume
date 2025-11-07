@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Santiago Donadio} \\ \vspace{5pt}
+    \small \href{sms:3392419039}{\underline{339-241-9039}} $|$ \href{mailto:santiagohdonadio@icloud.com}{\underline{santiagohdonadio@icloud.com}} \\ \vspace{1pt}  
+    \href{https://www.linkedin.com/in/santiagodonadio/}{\underline{LinkedIn: Santiago Donadio}} $|$
+    \href{https://github.com/santiagodonadio/}{\underline{GitHub: Santiago Donadio}}
+\end{center}
+
+\vspace{0pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Worcester State University}{Worcester, MA}
+      {Bachelor of Science in Computer Science, Concentration in Software Development}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{Upsilon Pi Epsilon Member - International Honor Society for the Computing and Information Disciplines}
+        \resumeItem{\href{https://programmingwithsantiago.wordpress.com}{\underline{Programming with Santiago}} - A personal blog covering a wide range of programming topics.}
+        
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+\vspace{5pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\href{https://facingyoshinobuyamamoto.vercel.app/}{\underline{\textbf{Independent: Facing the 2025 World Series MVP: Yoshinobu Yamamoto}}} \emph{}}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Technologies}: HTML, CSS, and JavaScript}
+        \resumeItem{\textbf{Tools and Environment}: React, Visual Studio Code, GitHub, and deployed on Vercel}
+        \resumeItem{\textbf{Description}: User selects a pitch type and zone in the strike zone to see if they would get a hit against pitcher Yamamoto. Incorporates real pitch selection data for each pitch being thrown. Displays hits, total swings, and batting average.}
+        \resumeItem{\textbf{Inspiration}: While watching the World Series, LA Dodgers pitcher Yoshinobu Yamamoto's was truly dominant. This is due to his extensive pitch selection of six pitches. I built a pitching simulator to show how challenging it was to get a hit off of him.}
+      \resumeItemListEnd 
+      
+          \vspace{5pt}
+      \resumeProjectHeading
+      {\href{https://martian-ascii-project.vercel.app}{\underline{\textbf{Independent: Hexadecimal ASCII Translation}}} \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Technologies}: HTML, CSS, and JavaScript}
+            \resumeItem{\textbf{Tools and Environment}: GitHub, React, Visual Studio Code, and deployed on Vercel}
+            \resumeItem{\textbf{Description}: Translates English characters and words into their hexadecimal ASCII values.}
+            \resumeItem{\textbf{Inspiration}: A scene came on in \emph{The Martian} where Matt Damon's character utilized an ASCII table to translate NASA's message. As a Computer Science major, I thought this was very cool and wanted to try coding a Hex ASCII Translator.}
+          \resumeItemListEnd
+          \vspace{5pt}
+      \resumeProjectHeading
+      {\href{https://1drv.ms/w/c/5a6247e5ff8fe0f6/ER1vxZVDSTdDuwq7e64LiC0BxLbVG-bMmuwAkIRkvRwFTg?e=sDPXdG}{\underline{{\textbf{University: Predictive Modeling and Data Mining - A Deeper Look Inside Tech Jobs}}} \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Data}: Found a dataset and begin preprocessing the data.}
+            \resumeItem{\textbf{Working with Data}: I created visualizations for categorical attributes, performed statistical analysis on numeric attributes, and used machine learning for predictive modeling to validate the data}
+            \resumeItem{\textbf{Description}: This school project involved working with real-world data, preprocessing it, and applying data mining techniques to validate and extract insights}
+            \resumeItem{\textbf{Inspiration}: Going into a technology career, I wanted to explore the factors that influence job satisfaction and identify any possible correlations with happiness}
+          \resumeItemListEnd
+          
+
+
+
+
+    
+    \resumeSubHeadingListEnd
+
+\vspace{5pt}    
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, SQL (MySQL), JavaScript, HTML/CSS, R} \\
+     \vspace{1pt}
+     \textbf{Frameworks and Libraries}{: React} \\
+     \vspace{1pt}
+     \textbf{Developer Tools}{: Git, Docker, Visual Studio Code} \\
+
+    }}
+ \end{itemize}
+
+
+%-------------------\textbf{Libraries}{: pandas, NumPy, }------------------------
+%
+\vspace{5pt}
+%-----------WORLD LANGUAGES-----------
+\section{World Languages}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \resumeItemListStart
+        \resumeItem{\textbf{English}{: Fluent}}
+        \resumeItem{\textbf{Spanish}{: Proficient}}
+        \resumeItemListEnd
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+\end{document}
