@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 NOV 2025 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 NOV 2025 08:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,6 +298,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 129.
 
+Overfull \hbox (31.09442pt too wide) in alignment at lines 147--147
+[] [] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 173.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -316,18 +327,18 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resumeData.out' has not changed.
-(rerunfilecheck)             Checksum: E506B0297DEFC2A40BDDCAC34BB8EA98;418.
+(rerunfilecheck)             Checksum: 0D4FF2368A0C60D0E7C8AB8FD4C32AC1;428.
  ) 
 Here is how much of TeX's memory you used:
- 10888 strings out of 473190
- 172511 string characters out of 5715801
- 609200 words of memory out of 5000000
- 34020 multiletter control sequences out of 15000+600000
+ 10908 strings out of 473190
+ 172866 string characters out of 5715801
+ 610200 words of memory out of 5000000
+ 34037 multiletter control sequences out of 15000+600000
  564429 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,372b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,362b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resumeData.pdf (1 page, 99657 bytes).
+Output written on resumeData.pdf (1 page, 102327 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream

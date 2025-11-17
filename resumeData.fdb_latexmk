@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1762478446.84072 "/Users/santiagodonadio/Desktop/desktop/resume/resumeData.tex" "resumeData.pdf" "resumeData" 1762478447.41507 0
-  "/Users/santiagodonadio/Desktop/desktop/resume/resumeData.tex" 1762478446.6016 8089 0d04a32c591f58250705de0f6b6f8f29 ""
+["pdflatex"] 1763385372.76764 "/Users/santiagodonadio/Desktop/desktop/resume/resumeData.tex" "resumeData.pdf" "resumeData" 1763385373.28618 0
+  "/Users/santiagodonadio/Desktop/desktop/resume/resumeData.tex" 1763385372.52529 8323 23746f3a2e35fd801c072731c66711e2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -52,6 +52,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1738182759 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1738182759 2378 14b657ee5031da98cf91648f19642694 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/latexsym.sty" 1738182759 2853 45a98f589f86476fadff19a8edda5ea9 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd" 1738182759 2469 c75f72b1dc17277decdd842fa4a321a8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo" 1738182759 8464 e73911cdcc738e82d6adccd28e654bb1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd" 1738182759 2233 b5d3114ec3e0616e658a8e7b74e810f1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty" 1738874546 52272 63d293bc0d496619edb57585740861a2 ""
@@ -85,9 +86,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761502112 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resumeData.aux" 1762478447.36595 716 ae76bb125bc80e409886df75b9cc395b "pdflatex"
-  "resumeData.out" 1762478447.36652 418 e506b0297defc2a40bddcac34bb8ea98 "pdflatex"
-  "resumeData.tex" 1762478446.6016 8089 0d04a32c591f58250705de0f6b6f8f29 ""
+  "resumeData.aux" 1763385373.24564 718 a8da4d777392c08a0e468aa8c6b76c9c "pdflatex"
+  "resumeData.out" 1763385373.24622 428 0d4ff2368a0c60d0e7c8ab8fd4c32ac1 "pdflatex"
+  "resumeData.tex" 1763385372.52529 8323 23746f3a2e35fd801c072731c66711e2 ""
   (generated)
   "resumeData.aux"
   "resumeData.log"
